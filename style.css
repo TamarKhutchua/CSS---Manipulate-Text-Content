@@ -1,0 +1,60 @@
+p {
+  font-family: "Arial Narrow", sans-serif;
+}
+span.serif {
+  font-family: "Times New Roman", serif;
+}
+span.fantasy {
+  font-family: "Castellar", fantasy;
+}
+span.mono {
+  font-family: "Courier", monospace;
+}
+span.cursive {
+  font-family: "Segoe Script", cursive;
+}
+body {
+  font-size: 4vw;
+}
+p.lg {
+  font-size: 1.5em;
+}
+p.sm {
+  font-size: 0.6em;
+  font-family: sans-serif;
+}
+p.huge {
+  font-size: 200%;
+  font-weight: bold;
+}
+h1.ital {
+  font-style: italic;
+}
+h1.caps {
+  font-variant: small-caps;
+}
+span.norm {
+  font-variant: normal;
+  background: LightGreen;
+}
+p {
+  font: normal small/1.3em "Courier", monospace;
+}
+span.head {
+  font: 350% "Pristina", cursive;
+}
+span.giant {
+  font: small-caps large "Castellar", fantasy;
+}
+span.bears {
+  font: large "Arial", sans-serif;
+}
+span.score {
+  font: bold small "Verdana", sans-serif;
+}
+span.venue {
+  font: italic medium "Arial", sans-serif;
+}
+span.coach {
+  font: medium "Comic Sans MS", cursive;
+}

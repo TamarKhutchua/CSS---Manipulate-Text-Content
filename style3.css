@@ -1,0 +1,97 @@
+p {
+  text-indent: 5em;
+}
+span.spread {
+  letter-spacing: 1em;
+  background: LightGreen;
+}
+span.space {
+  word-spacing: 1.5em;
+  background: LawnGreen;
+}
+p.main {
+  font: medium "Courier", monospace;
+  background: LightGreen;
+}
+span.signature {
+  font: 2em "Lucida Handwriting", cursive;
+  color: Green;
+}
+span.under {
+  text-decoration: underline;
+}
+span.thru {
+  text-decoration: line-through;
+}
+span.rails {
+  text-decoration: overline underline;
+}
+span.lower {
+  text-transform: lowercase;
+}
+span.upper {
+  text-transform: uppercase;
+}
+span.caps {
+  text-transform: capitalize;
+}
+a.plain {
+  text-decoration: none;
+}
+dd.ltr {
+  direction: ltr;
+}
+dd.rtl {
+  direction: rtl;
+}
+dd.bidi-off {
+  unicode-bidi: bidi-override;
+}
+h1::first-letter {
+  color: ForestGreen;
+}
+h1::selection {
+  background: LawnGreen;
+}
+p::before {
+  content: "* * *";
+  background: LightGreen;
+}
+p::after {
+  content: "!!!";
+  background: LawnGreen;
+}
+a[href].quote::before {
+  content: open-quote;
+  color: Blue;
+}
+a[href].quote::after {
+  content: close-quote;
+  color: Blue;
+}
+a[href].pdf::after {
+  content: url(images/Layer\ 5.png);
+}
+a[href].att::after {
+  content: '("attr(href) ")';
+  color: Blue;
+}
+h2 {
+  counter-increment: num 1;
+}
+h3 {
+  counter-increment: sub 1;
+  text-indent: 10%;
+}
+h2::before {
+  content: counter(num) "";
+  background: Green;
+  color: White;
+}
+h3::before {
+  content: counter(num) "." counter(sub) "";
+  background: LawnGreen;
+}
+h3.restart {
+  counter-reset: sub 0;
+}

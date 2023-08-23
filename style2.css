@@ -1,0 +1,18 @@
+p,
+span {
+  font: medium monospace;
+  background: LightGreen;
+  border: 1px solid LimeGreen;
+}
+p.just {
+  text-align: justify;
+}
+span.up {
+  vertical-align: super;
+}
+span.down {
+  vertical-align: sub;
+}
+span.top {
+  vertical-align: top;
+}
